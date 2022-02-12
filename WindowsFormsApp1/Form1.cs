@@ -19,10 +19,25 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            DialogResult result = MessageBox.Show(
+                 "Вы точно хотите выйти", "Подтверждение выхода", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                Close();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+            BackColor = Color.Blue;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
         {
 
         }
