@@ -43,7 +43,7 @@ namespace WindowsFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(544, 227);
+            this.button1.Location = new System.Drawing.Point(544, 175);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(147, 50);
             this.button1.TabIndex = 1;
